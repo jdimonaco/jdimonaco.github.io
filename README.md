@@ -9,4 +9,4 @@ This is a sample section alongside my methods
 ### Data Analysis 
 
 #image
-![gvive your imag a name]
+![histogram]
