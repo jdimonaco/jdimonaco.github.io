@@ -2618,22 +2618,6 @@ input, select, textarea {
 
 		/* Things I can do */
 		
-			#two {
-			    text-align: center; /* Center align the content within the section */
-			    padding: 40px 0; /* Adjust padding as needed */
-			    background-color: #f5f5f5; /* Optional: Background color for the section */
-			}
-			
-			#two h3 {
-			    font-size: 2em; /* Example: Adjust heading font size */
-			    margin-bottom: 20px; /* Example: Adjust margin bottom for spacing */
-			}
-			
-			#two p {
-			    font-size: 1.2em; /* Example: Adjust paragraph font size */
-			    color: #666; /* Optional: Adjust text color */
-			}
-			
 			.feature-icons {
 			    list-style-type: none; /* Remove default bullet points */
 			    padding: 0;
@@ -2643,11 +2627,18 @@ input, select, textarea {
 			.feature-icons li {
 			    display: block; /* Display list items as blocks (vertical layout by default) */
 			    margin-bottom: 10px; /* Adjust spacing between list items */
+			    text-align: left; /* Ensure text alignment is left for list items */
 			}
 			
 			.feature-icons li i {
 			    margin-right: 10px; /* Optional: Adjust icon spacing */
 			}
+			
+			/* Optional: Adjust spacing between list items */
+			.feature-icons li:not(:last-child) {
+			    margin-bottom: 10px;
+			}
+
 
 
 
