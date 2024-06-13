@@ -2616,32 +2616,6 @@ input, select, textarea {
 				}
 
 
-		/* Things I can do */
-		
-			.feature-icons {
-			    list-style-type: none; /* Remove default bullet points */
-			    padding: 0;
-			    text-align: center; /* Center list items horizontally */
-			}
-			
-			.feature-icons li {
-			    display: block; /* Display list items as blocks (vertical layout by default) */
-			    margin-bottom: 10px; /* Adjust spacing between list items */
-			    text-align: left; /* Ensure text alignment is left for list items */
-			}
-			
-			.feature-icons li i {
-			    margin-right: 10px; /* Optional: Adjust icon spacing */
-			}
-			
-			/* Optional: Adjust spacing between list items */
-			.feature-icons li:not(:last-child) {
-			    margin-bottom: 10px;
-			}
-
-
-
-
 		/* Footer */
 
 			#footer .copyright li {
