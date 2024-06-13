@@ -9,6 +9,8 @@ This is a sample section alongside my methods
 ### Data Analysis 
 
 #image
+
+
 ![histogram](assets/histogram-example-1.png)
 
 
