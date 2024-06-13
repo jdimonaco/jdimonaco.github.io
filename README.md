@@ -1,6 +1,6 @@
-# Portifolio
+# Jessica Di Monaco
 
-# Methodology
+# Data Analyst
 
 This is a sample section alongside my methods
 
