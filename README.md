@@ -10,3 +10,7 @@ This is a sample section alongside my methods
 
 #image
 ![histogram](assets/histogram-example-2.png) 
+
+# URL Links
+
+[Markdown sheet](https://www.markdownguide.org/cheat-sheet/) 
