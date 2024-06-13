@@ -1,5 +1,25 @@
-title: Jessica Di Monaco
-#logo: /assets/img/headshot_circle.png
-#description: text below image
-#show_downloads: true
-theme: jekyll-theme-minimal
+url: https://jdimonaco.github.io/
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: My Analytical Adventures
+email: your-email@domain.com
+description: "Explore my data science portfolio to see how I transform raw data into actionable insights through innovative projects and compelling visualizations."
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty
