@@ -1,7 +1,10 @@
 # Portifolio
 
-# Heading 1
+# Methodology
 
-## Heading 2
+This is a sample section alongside my methods
 
-### Heading 3
+## Data Colleciton
+
+
+### Data Analysis 
