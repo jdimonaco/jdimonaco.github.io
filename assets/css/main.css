@@ -2632,9 +2632,10 @@ input, select, textarea {
 
 
 		
-		/* Custom styles for the "Things I Can Do" section */
+
+		/* Specific styles for the "Things I Can Do" section */
 			#two .feature-icons {
-			    list-style-type: none; /* Removes default bullets */
+			    list-style: none; /* Removes default bullets */
 			    padding-left: 0; /* Removes default padding */
 			    margin: 0; /* Removes default margin */
 			}
@@ -2646,11 +2647,22 @@ input, select, textarea {
 			    justify-content: center; /* Centers the content horizontally */
 			}
 			
+			#two .feature-icons li::before {
+			    content: none; /* Ensures no bullets are displayed */
+			}
+			
 			#two .feature-icons i {
 			    margin-right: 10px; /* Adds space between icon and text */
 			}
 			
-			/* Custom styles for the "About Me" section */
+			/* General container styling */
+			.container {
+			    max-width: 800px; /* Adjust the maximum width as necessary */
+			    margin: 0 auto; /* Center the container */
+			    padding: 20px;
+			}
+			
+			/* About Me section styling */
 			#about .container {
 			    text-align: center;
 			}
@@ -2664,21 +2676,22 @@ input, select, textarea {
 			    height: auto;
 			}
 			
-			/* General container styling */
-			.container {
-			    max-width: 800px; /* Adjust the maximum width as necessary */
-			    margin: 0 auto; /* Center the container */
-			    padding: 20px;
-			}
-			
-			#two h3, #two p {
+			/* Things I Can Do section styling */
+			#two h3 {
 			    text-align: center;
 			}
 			
+			#two p {
+			    text-align: center;
+			    margin-bottom: 20px; /* Space between paragraph and list */
+			}
+			
+			/* General paragraph styling */
 			p {
 			    margin-bottom: 10px; /* Space between paragraphs */
 			    line-height: 1.6; /* Sets a comfortable line height for readability */
 			}
+			
 
 
 	}
