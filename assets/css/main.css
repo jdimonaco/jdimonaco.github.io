@@ -2633,7 +2633,15 @@ input, select, textarea {
 
 		
 
-		/* Specific styles for the "Things I Can Do" section */
+		/* Global styles */
+
+			body {
+			    font-family: 'Arial', sans-serif;
+			    /* Other global styles */
+			}
+			
+			/* Styles specific to "Things I Can Do" section */
+			
 			#two .feature-icons {
 			    list-style: none; /* Removes default bullets */
 			    padding-left: 0; /* Removes default padding */
@@ -2656,6 +2664,7 @@ input, select, textarea {
 			}
 			
 			/* General container styling */
+			
 			.container {
 			    max-width: 800px; /* Adjust the maximum width as necessary */
 			    margin: 0 auto; /* Center the container */
@@ -2663,6 +2672,7 @@ input, select, textarea {
 			}
 			
 			/* About Me section styling */
+			
 			#about .container {
 			    text-align: center;
 			}
@@ -2676,21 +2686,13 @@ input, select, textarea {
 			    height: auto;
 			}
 			
-			/* Things I Can Do section styling */
-			#two h3 {
-			    text-align: center;
-			}
-			
-			#two p {
-			    text-align: center;
-			    margin-bottom: 20px; /* Space between paragraph and list */
-			}
-			
 			/* General paragraph styling */
+			
 			p {
 			    margin-bottom: 10px; /* Space between paragraphs */
 			    line-height: 1.6; /* Sets a comfortable line height for readability */
 			}
+
 			
 
 
