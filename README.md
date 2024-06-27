@@ -1,12 +1,10 @@
-# Jessica Di Monaco
+# Data Science Projects
 
-# Data Analyst
+This repository shows my personal portfolio website, where I present my work and data science projects. Dive into the code and see how it all works!
 
-This is a sample section alongside my methods
+# Access My Portifolio
 
-## Data Colleciton
-
-### Data Analysis 
+[Link to portifolio](https://jdimonaco.github.io/)
 
 #image
 
