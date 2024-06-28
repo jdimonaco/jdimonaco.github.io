@@ -19,6 +19,14 @@ Feel free to reach out if you have any questions:
 
 - **Email**: [di.jmonaco@gmail.com](mailto:di.jmonaco@gmail.com)
 - **LinkedIn**: [my LinkedIn profile](https://linkedin.com/in/jessicad7)
+  
+
+## Acknowledgments
+
+A special thank you for:
+
+- HTML5 UP for providing the "Read Only" template.
+- Data Science community for sharing inspirational projects
 
 
 #image
