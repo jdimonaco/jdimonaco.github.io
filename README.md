@@ -18,7 +18,7 @@ This repository shows my personal portfolio website, where I present my work and
 Feel free to reach out if you have any questions:
 
 - **Email**: [di.jmonaco@gmail.com](mailto:di.jmonaco@gmail.com)
-- **LinkedIn**: [my LinkedIn profile](https://linkedin.com/in/yjessicad7)
+- **LinkedIn**: [my LinkedIn profile](https://linkedin.com/in/jessicad7)
 
 
 #image
