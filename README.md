@@ -13,7 +13,7 @@ This repository shows my personal portfolio website, where I present my work and
 - Data Visualisation: Matplotlib, Seaborn, Tableau
 - Data Manipulation: Pandas, NumPy, Power Query
 
-  ## Get in Touch
+## Get in Touch
 
 Feel free to reach out if you have any questions:
 
