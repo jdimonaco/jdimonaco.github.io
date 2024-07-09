@@ -29,7 +29,6 @@ A special thank you for:
 - Data Science community for sharing inspirational projects
 
 
-#image
-![histogram](assets/histogram-example-1.png)
+
 
 
