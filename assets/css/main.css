@@ -3313,4 +3313,35 @@ input, select, textarea {
 				padding: 0;
 			}
 
+		/* Pagination container */
+			.pagination {
+			  display: inline-block;
+			  margin-top: 20px; /* Adjust as needed */
+			}
+		
+
+		/* Pagination links */
+			.pagination a {
+			  color: black;
+			  float: left;
+			  padding: 8px 16px;
+			  text-decoration: none;
+			  transition: background-color 0.3s;
+			  border: 1px solid #ddd;
+			  margin: 0 4px; /* Adjust spacing between links */
+			}
+			
+			/* Add a background color on hover */
+			.pagination a:hover {
+			  background-color: #ddd;
+			}
+			
+			/* Add a background color to the active/current page link */
+			.pagination a.active {
+			  background-color: #4CAF50;
+			  color: white;
+			  border: 1px solid #4CAF50;
+			}
+		
+
 	}
