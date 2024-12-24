@@ -156,4 +156,64 @@
 			}
 		});
 
+	// Pagination Logic.
+	$(document).ready(function() {
+		const projectsPerPage = 3;
+		const $projects = $('#projects-container .project');
+		const totalPages = Math.ceil($projects.length / projectsPerPage);
+		let currentPage = 1;
+
+		function showPage(page) {
+			const start = (page - 1) * projectsPerPage;
+			const end = start + projectsPerPage;
+
+			$projects.hide().slice(start, end).show();
+			updatePagination();
+		}
+
+		function updatePagination() {
+			const $pagination = $('#pagination');
+			$pagination.empty();
+
+			// Previous button
+			const $prevButton = $('<button>')
+				.text('Previous')
+				.prop('disabled', currentPage === 1)
+				.on('click', function() {
+					if (currentPage > 1) {
+						currentPage--;
+						showPage(currentPage);
+					}
+				});
+			$pagination.append($prevButton);
+
+			// Page number buttons
+			for (let i = 1; i <= totalPages; i++) {
+				const $pageButton = $('<button>')
+					.text(i)
+					.toggleClass('active', i === currentPage)
+					.on('click', function() {
+						currentPage = i;
+						showPage(currentPage);
+					});
+				$pagination.append($pageButton);
+			}
+
+			// Next button
+			const $nextButton = $('<button>')
+				.text('Next')
+				.prop('disabled', currentPage === totalPages)
+				.on('click', function() {
+					if (currentPage < totalPages) {
+						currentPage++;
+						showPage(currentPage);
+					}
+				});
+			$pagination.append($nextButton);
+		}
+
+		// Initialize the first page
+		showPage(currentPage);
+	});
+
 })(jQuery);
