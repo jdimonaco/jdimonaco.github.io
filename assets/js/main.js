@@ -156,10 +156,22 @@
 			}
 		});
 
-	// Pagination Logic.
+	// Sorting and Pagination Logic.
 	$(document).ready(function() {
 		const projectsPerPage = 3;
 		const $projects = $('#projects-container .project');
+		const $projects = $projectsContainer.children('.project');
+
+		// Sort projects by date in descending order
+		const sortedProjects = $projects.sort((a, b) => {
+			const dateA = new Date($(a).data('date'));
+			const dateB = new Date($(b).data('date'));
+			return dateB - dateA;
+		});
+
+		// Clear container and append sorted projects
+		$projectsContainer.empty().append(sortedProjects);
+
 		const totalPages = Math.ceil($projects.length / projectsPerPage);
 		let currentPage = 1;
 
@@ -170,7 +182,7 @@
 			$projects.hide().slice(start, end).show();
 			updatePagination();
 		}
-
+				
 		function updatePagination() {
 			const $pagination = $('#pagination');
 			$pagination.empty();
