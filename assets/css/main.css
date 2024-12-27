@@ -3342,24 +3342,6 @@ input, select, textarea {
 			  color: white;
 			  border: 1px solid #4CAF50;
 			}
-
-		/* Styling for "Previous" and "Next" buttons only */
-			#pagination .button {
-			  background-color: #f0f0f0; /* Light grey background */
-			  color: #333; /* Dark grey text for readability */
-			  border: 1px solid #ccc; /* Subtle border */
-			  border-radius: 5px; /* Slightly rounded corners */
-			  padding: 10px 20px; /* Adjust padding for a rectangular shape */
-			  font-size: 16px; /* Ensure text is readable */
-			  cursor: pointer;
-			  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-			}
-			
-			/* Hover effect for "Previous" and "Next" buttons */
-			#pagination .button:hover {
-			  background-color: #e0e0e0; /* Slightly darker grey on hover */
-			  color: #000; /* Darker text on hover */
-			}
 		
 
 	}
