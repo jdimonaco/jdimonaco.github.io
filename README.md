@@ -1,29 +1,27 @@
-# Welcome to my Data Science Portifolio
+# JessicaData – Data Science Portfolio
 
-This repository shows my personal portfolio website, where I present my work and data science projects. Dive into the code and see how it all works!
+This repository contains the source code of my portfolio website, where I share data science projects and articles on using data and models to solve real business problems.
 
-# Visit My Portifolio
+**Visit the site:** [jdimonaco.github.io](https://jdimonaco.github.io/)
 
-[Click here to visit my Data Science Portfolio](https://jdimonaco.github.io/)
+## What you'll find
 
-## Skills and Technologies
+- **Projects:** end-to-end case studies covering machine learning, NLP, forecasting, clustering and dashboard design, each linked to its own GitHub repository.
+- **Blog:** practical articles on data architecture, ethics, visualisation and learning to code.
 
-- Programming Languages: Python, SQL
-- Machine Learning: Scikit-learn, TensorFlow, Keras
-- Data Visualisation: Matplotlib, Seaborn, Tableau
-- Data Manipulation: Pandas, NumPy, Power Query
+## Skills and technologies
 
-## Get in Touch
+- **Languages:** Python, SQL
+- **Machine learning:** scikit-learn, XGBoost, TensorFlow/Keras, PyTorch, Hugging Face Transformers, SHAP
+- **Forecasting:** statsmodels (ARIMA, SARIMAX), Prophet
+- **Visualisation:** Tableau, Matplotlib, Seaborn, Streamlit
+- **Data:** pandas, NumPy
 
-Feel free to reach out if you have any questions:
+## About the site
 
-- **Email**: [di.jmonaco@gmail.com](mailto:di.jmonaco@gmail.com)
-- **LinkedIn**: [my LinkedIn profile](https://linkedin.com/in/jessicad7)
-  
+Built with [Jekyll](https://jekyllrb.com/) using the Baleon theme, and deployed to GitHub Pages with GitHub Actions.
 
-## Acknowledgments
+## Get in touch
 
-A special thank you for:
-
-- HTML5 UP for providing the "Read Only" template.
-- Data Science community for sharing inspirational projects
+- **LinkedIn:** [linkedin.com/in/jessicad7](https://www.linkedin.com/in/jessicad7/)
+- **Email:** [di.jmonaco@gmail.com](mailto:di.jmonaco@gmail.com)
