@@ -103,27 +103,26 @@ blog:
 faq:
   enable: true
   faq_title: Questions? <em>Answers</em>. # You can add an 'em' element to highlight text.
-  faq_description: Find solutions to common queries here.
+  faq_description: A few things people often ask me, whether they're hiring or just starting out in data.
 
 faq_items:
-  - title: What are your main areas of expertise?
-    description: My core strengths are business intelligence and dashboard development, data analysis in SQL and Python, and applied data science, including forecasting, natural language processing and machine learning.
+  - title: What do you actually do day to day?
+    description: I'm a Business Intelligence Expert. I build dashboards and analysis used by thousands of people around the world, and I spend a lot of time working out what people really need before building anything. When a dashboard can't answer the question, I reach for data science, from forecasting to machine learning.
 
-  - title: What type of projects do you showcase here?
-    description: The portfolio features dashboards, analytical case studies, machine learning projects, and other data-focused work that demonstrates my technical and problem-solving abilities.
+  - title: What kind of projects will I find here?
+    description: A mix of the problems businesses face every day, solved with different tools. There's machine learning to predict delays and employee attrition, natural language processing on reviews and handling notes, forecasting for climate and warehouse volumes, clustering, a Streamlit app and a set of Tableau dashboards. Each project starts with the business question, shows how I approached it, and is honest about what worked and what didn't.
 
-  - title: Do you have experience working with different data systems?
-    description: Yes. I've worked with relational databases, Tableau, Python, and SAP Business Objects, and have experience analysing and integrating data across multiple platforms and teams.
+  - title: What kind of work excites you most?
+    description: Building things that help people make better decisions, whether that's a model, a dashboard or the pipeline behind them. I'm especially drawn to work where data makes a positive difference, like sustainability and conservation. If that sounds like your world, I'd love to hear from you on LinkedIn or by email, using the links at the bottom of the page.
 
-  - title: What tools and technologies do you use?
-    description: My day-to-day tools are SQL, Tableau and Python, with libraries such as pandas, scikit-learn, statsmodels, TensorFlow and Hugging Face Transformers for analysis and modelling. I also apply good engineering practice, such as modular code and version control, so my work can be rerun and reused.
+  - title: I'm new to data. Where should I start on this site?
+    description: Pick any project and read its "At a glance" box first. In five lines it tells you the problem, the data, the approach, the result and the tools. Then follow the link to GitHub to see the code behind it. On the blog, Choosing Your Path in Data Science and Learning to Code, One Layer at a Time are good first reads.
 
-  - title: How long does it take to complete a data or BI project?
-    description:  Timelines depend on scope and complexity. Some dashboards or analyses can be delivered in a few days, while more advanced modelling, system design, or machine learning projects may take several weeks.
+  - title: Do I need a degree to work in data?
+    description: Not to get started. I began as the person in the office who always ended up with the spreadsheets, taught myself SQL and Tableau through online courses, and then learned on the job through two apprenticeships, finishing with a data science degree. Curiosity and practice matter far more than where you start.
 
-  - title: How can I contact you to discuss a project or opportunity?
-    description: You can get in touch via the contact form or email. I’m always open to professional discussions, collaborations, and new opportunities.
-
+  - title: What's the biggest lesson you've learned?
+    description: Be suspicious of results that look too good. One of my early models scored over 99% accuracy, and the reason turned out to be data leakage, with the answer hiding in the inputs. Checking that properly taught me more than any model ever did.
 
 #-------------------------------
 # Gallery Settings
