@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48">
+  <rect width="240" height="48" fill="none"/>
+  <circle cx="18" cy="24" r="6" fill="#E5407E"/>
+  <text x="34" y="28"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="18"
+        font-weight="500"
+        letter-spacing="0.5"
+        fill="#111827">
+    JessicaData
+  </text>
+</svg>

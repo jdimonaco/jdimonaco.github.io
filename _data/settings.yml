@@ -1,0 +1,176 @@
+#-------------------------------
+# Site Settings
+title: JessicaData
+logo: "/images/jlogo.svg" # You can add own logo. For example '/images/logo.png'.
+logo_dark: "/images/jlogo-dark.svg"
+description: Jessica Di Monaco – Business Intelligence Expert working across analytics, dashboards and applied data science, from forecasting to machine learning.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'About'
+      url: '/about/'
+
+
+# Call to action button
+cta_button:
+  enable: true
+  cta_button_link: "mailto:di.jmonaco@gmail.com"
+  cta_button_text: Say Hello!
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_intro: Hey, I’m Jessica
+  author_name: Jessica Di Monaco
+  author_role: Business Intelligence Expert
+  author_avatar: /images/photobnw.jpg
+
+ 
+#-------------------------------
+# Sidebar Section Settings
+sidebar:
+  sidebar_title: One Stop Hub for <em>Data,</em> <em>Insight,</em> <em>Impact</em>. # You can add an 'em' element to highlight text.
+  sidebar_description: Data isn’t just numbers. It’s a way of seeing the world differently, connecting stories, uncovering patterns, and turning observation into meaningful action.
+
+
+# Social Links
+social:
+- {icon: "fa-brands fa-linkedin-in", name: "linkedin", link: "https://www.linkedin.com/in/jessicad7/"}
+- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/jdimonaco"}
+- {icon: "fa-solid fa-chart-bar", name: "Tableau Public", link: "https://public.tableau.com/app/profile/jessica.di.monaco/vizzes"}
+- {icon: "fa-solid fa-envelope", name: "Email", link: "mailto:di.jmonaco@gmail.com"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Projects Settings
+projects:
+  enable: true
+  projects_title: Portfolio <em>Showcase</em> # You can add an 'em' element to highlight text.
+  projects_description: A collection of work where data, analysis, and business context come together to solve real problems.
+
+
+#-------------------------------
+# Testimonials Settings
+testimonials:
+  enable: true
+  testimonials_title: My <em>Skills</em> # You can add an 'em' element to highlight text.
+  testimonials_description: A snapshot of the key tools and technologies I work with.
+
+testimonial-items:
+  - name: Python & SQL
+    image: "/images/python.jpg"
+    designation : Data Engineering & Analytics
+    content : Building analytical workflows and data pipelines in Python and SQL, from web scraping and data cleaning to modular, reusable code.
+
+  - name: Data Visualisation
+    image: "/images/dash_bubble.jpg"
+    designation : Dashboards & Storytelling
+    content : Skilled in transforming insights into clear, intuitive visuals using Tableau and other tools.
+
+  - name: Machine Learning
+    image: "/images/simpleline.jpg"
+    designation : Models & Insight Discovery
+    content : Building and explaining models for classification and prediction, from tree-based models and neural networks to NLP with transformers and SHAP.
+
+  - name: Forecasting & Time Series
+    image: "/images/laptop-6756528_1280.jpg"
+    designation: Planning Ahead with Data
+    content: Forecasting demand and trends with ARIMA, SARIMAX and Prophet, always tested on unseen data before the results are trusted.
+
+#-------------------------------
+# Blog Section Settings
+blog:
+  enable: true
+  blog_title: Latest <em>Articles</em> # You can add an 'em' element to highlight text.
+  blog_description: Explore articles on data analysis, visualisation techniques, machine learning, and deep learning, with fresh insights and trends from the world of data science.
+
+#-------------------------------
+# Faq (Frequently asked questions) Settings
+faq:
+  enable: true
+  faq_title: Questions? <em>Answers</em>. # You can add an 'em' element to highlight text.
+  faq_description: Find solutions to common queries here.
+
+faq_items:
+  - title: What are your main areas of expertise?
+    description: My core strengths are business intelligence and dashboard development, data analysis in SQL and Python, and applied data science, including forecasting, natural language processing and machine learning.
+
+  - title: What type of projects do you showcase here?
+    description: The portfolio features dashboards, analytical case studies, machine learning projects, and other data-focused work that demonstrates my technical and problem-solving abilities.
+
+  - title: Do you have experience working with different data systems?
+    description: Yes. I've worked with relational databases, Tableau, Python, and SAP Business Objects, and have experience analysing and integrating data across multiple platforms and teams.
+
+  - title: What tools and technologies do you use?
+    description: My day-to-day tools are SQL, Tableau and Python, with libraries such as pandas, scikit-learn, statsmodels, TensorFlow and Hugging Face Transformers for analysis and modelling. I also apply good engineering practice, such as modular code and version control, so my work can be rerun and reused.
+
+  - title: How long does it take to complete a data or BI project?
+    description:  Timelines depend on scope and complexity. Some dashboards or analyses can be delivered in a few days, while more advanced modelling, system design, or machine learning projects may take several weeks.
+
+  - title: How can I contact you to discuss a project or opportunity?
+    description: You can get in touch via the contact form or email. I’m always open to professional discussions, collaborations, and new opportunities.
+
+
+#-------------------------------
+# Gallery Settings
+gallery:
+  enable: true
+  gallery_title: A Visual Journey Through <em>My World</em> # You can add an 'em' element to highlight text.
+  gallery_description: A snapshot from five different projects, from Tableau dashboards and airline reviews to warehouse behaviour, a century of temperature data and an explainable delay model.
+  gallery_caption:
+
+gallery_images:
+  - alt: 'A grid of nine of my Tableau Public dashboards'
+    url: '/images/dataviz-tableau-collage.jpg'
+  - alt: 'Word cloud of negative airline reviews, led by flight, delay, hour and customer service'
+    url: '/images/gallery-sentiment.jpg'
+  - alt: 'Pick frequency against lead time by product category in the warehouse project'
+    url: '/images/gallery-warehouse.jpg'
+  - alt: 'Annual average land temperature from 1894 to 2012, rising since the 1970s'
+    url: '/images/gallery-climate.jpg'
+  - alt: 'SHAP importance by feature group for the air cargo early warning models'
+    url: '/images/gallery-early-warning.jpg'
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: false
+  mailchimp_title: Subscribe to the <em>Newsletter</em> # You can add an 'em' element to highlight text.
+  mailchimp_description: Get updates on new projects, data insights, and articles delivered straight to your inbox.
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address
+  mailchimp_button_text: Subscribe
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: di.jmonaco@gmail.com # Add your form_id
+  description: Want to collaborate or chat about an opportunity? Send me a message and I’ll get back to you. # Add a description of your form
+
+# NOTE
+# Baleon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier:  # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
