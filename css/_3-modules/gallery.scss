@@ -133,3 +133,10 @@
     max-height: 90%;
   }
 }
+/* Soften bright white charts in dark mode */
+:root[dark] .section-gallery .section-gallery__image img {
+  filter: brightness(0.72) contrast(1.05);
+}
+:root[dark] .section-gallery .section-gallery__image {
+  border: 1px solid var(--border-color);
+}

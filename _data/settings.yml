@@ -135,7 +135,7 @@ gallery:
 gallery_images:
   - alt: 'A grid of nine of my Tableau Public dashboards'
     url: '/images/dataviz-tableau-collage.jpg'
-  - alt: 'Word cloud of negative airline reviews, led by flight, delay, hour and customer service'
+  - alt: 'Average airline review rating by airline, with Qatar highest and Emirates and Lufthansa lowest'
     url: '/images/gallery-sentiment.jpg'
   - alt: 'Pick frequency against lead time by product category in the warehouse project'
     url: '/images/gallery-warehouse.jpg'
